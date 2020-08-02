@@ -26,7 +26,7 @@ $(document).ready(function () {
     var listaElementow = $("header nav li");
     listaElementow.css("font-weight", "bold");
     listaElementow.css("font-size", "22px");
-    listaElementow.filter(":first").css("font-size", "20px");
+    listaElementow.filter(":first").css("font-size", "20px"); 
 
     $("header nav li:first").css("font-size", "30px");
 
