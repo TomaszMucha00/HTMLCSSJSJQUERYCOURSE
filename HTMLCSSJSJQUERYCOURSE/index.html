@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nasza Pierwsza Strona</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Główna</a></li>
+                    <li><a href="/kontakt.html">Kontakt</a></li>
+                    <li><a href="/onas.html">O nas</a></li>
+                </ul>
+            </nav>
+            <img src="Obrazki/logo.jpg" alt="Logo">
+            <h1>Nasza Pierwsza Strona</h1>
+            <p>Witaj Świecie</p>
+            <div>
+                Lorem <em>ipsum</em> <strong>dolor</strong> sit amet consectetur adipisicing elit. Sit, repellendus?
+                Exercitationem ratione enim incidunt harum atque est doloribus sequi accusantium.
+                Alias, quos? Vero aut accusamus voluptas et animi ratione? Delectus?
+                Veritatis qui deserunt voluptatum rerum, perspiciatis quae beatae itaque cumque?
+                Ipsam tenetur quod possimus vero, nostrum natus nemo reiciendis unde!
+            </div>
+        </header>
+        <section id="main">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Inventore, nemo officiis? Corrupti odio atque aliquam sunt.
+                Tempora nulla aliquam maiores voluptatem voluptate soluta. Eaque?
+                Voluptatibus cupiditate repudiandae unde numquam quis dolorum iste.
+            </p>
+            <form action="szukaj.html" method="POST" class="border-image simple-form" id="gitHubWynikiForm">
+                <label for="frazaWyszukiwania">Fraza wyszukiwania</label>
+                <input name="frazaWyszukiwania" id="frazaWyszukiwania" /><br />
+                <label for="MaGwiazdki">Ma gwiazdki</label>
+                <input type="checkbox" name="maGwiazdki" checked="checked" id="maGwiazdki"/><br />
+                <label for="wybierzJezyk">Wybierz język</label>
+                <select name="wybierzJezyk" id="wybierzJezyk">
+                    <option value="Wszystkie">Wszystkie</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                    <option value="Python" selected>Python</option>
+                    <option value="Ruby">Ruby</option>
+                </select>
+                <input type="submit" value="szukaj" /><br />
+            </form>
+
+            <div id="results" class="border-image">
+                <button id="toglleButton">Ukryj</button>
+                <div id="resultsList">
+                    Wyniki naszych wyszukiwań
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            &copy; 2020 Tomasz Mucha
+            <a href="http://google.pl">Do google kliknij tutaj</a><br />
+        </footer>
+    </div>
+    <script type="text/javascript" src="JS/jQuery.js"></script>
+    <script type="text/javascript" src="JS/index.js"></script>
+    </body>
+
+</html>
